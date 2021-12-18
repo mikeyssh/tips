@@ -4,7 +4,7 @@ export default function OneHUndredDollarDescription() {
     return (
         <>
             <h1 className="text-center text-xl text-gold-200 leading-tight pt-6">
-                <span className="block text-xl text-gold-200 leading-tight pt-6">
+            <span className="block text-3xl text-gold-200 leading-tight pt-6 font-semibold">
                     Welcome to the Tip Portal
                 </span>
                 

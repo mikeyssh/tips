@@ -133,7 +133,7 @@ function Header() {
         <input
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
-          className="flex-grow pl-5 bg-transparent outline-none text-sm
+          className="flex-grow hidden md:inline pl-5 bg-transparent outline-none text-sm
                     text-gray-900 dark:text-gray-900 placeholder-white focus:ring-teal-500"
           placeholder="Start your search"
         />
@@ -145,8 +145,8 @@ function Header() {
 
       {/* Right */}
       <div className="flex items-center space-x-4 justify-end text-gray-200 dark:text-gray-200">
-        <CustomLink href="https://notredame.live/blog" className="hidden md:inline cursor-pointer">Blog</CustomLink>
-        <CustomLink href="https://notredame.live/" className="hidden md:inline cursor-pointer">Home</CustomLink>
+        <CustomLink href="https://notredame.live/blog" className="md:inline cursor-pointer">Blog</CustomLink>
+        <CustomLink href="https://notredame.live/" className="md:inline cursor-pointer">Home</CustomLink>
         {/* <ToggleSwitch className="bg-teal-500 dark:bg-ndblue-100 "/> */}
         <TipButton className="bg-teal-500 dark:bg-ndblue-100 "/>
       </div>

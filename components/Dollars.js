@@ -21,7 +21,7 @@ function Dollars({ href }) {
       img: "/images/dollar-1.svg",
       name: "Leave a $1 tip?",
       price: "1",
-      pathname: "/tip-portal/leave-a-one-dollar-tip",
+      pathname: "/tips/one-dollars",
       tax: ""
     },
     // {
@@ -29,7 +29,7 @@ function Dollars({ href }) {
     //   img: "/images/dollar-2.svg",
     //   name: "Leave a $2 tip?",
     //   price: "2",
-    //   pathname: "/tip-portal/leave-a-two-dollar-tip",
+    //   pathname: "/tips/two-dollars",
     //   tax: "txcd_10000000"
     // },
     {
@@ -37,7 +37,7 @@ function Dollars({ href }) {
       img: "/images/dollar-5.svg",
       name: "Leave a $5 tip?",
       price: "5",
-      pathname: "/tip-portal/leave-a-five-dollar-tip",
+      pathname: "/tips/five-dollars",
       tax: "txcd_10000000"
     },
     {
@@ -45,7 +45,7 @@ function Dollars({ href }) {
       img: "/images/dollar-10.svg",
       name: "Leave a $10 tip?",
       price: "10",
-      pathname: "/tip-portal/leave-a-ten-dollar-tip",
+      pathname: "/tips/ten-dollars",
       tax: "txcd_10000000"
     },
     
@@ -54,7 +54,7 @@ function Dollars({ href }) {
       img: "/images/dollar-20.svg",
       name: "Leave a $20.00 tip?",
       price: "20",
-      pathname: "/tip-portal/leave-a-twenty-dollar-tip",
+      pathname: "/tips/twenty-dollars",
       tax: "txcd_10000000"
     },
     {
@@ -62,15 +62,15 @@ function Dollars({ href }) {
       img: "/images/dollar-50.svg",
       name: "Leave a $50.00 tip?",
       price: "50",
-      pathname: "/tip-portal/leave-a-fifty-dollar-tip",
+      pathname: "/tips/fifty-dollars",
       tax: "txcd_10000000"
   },
   {
     id: "one-hundred",
-    img: "/images/dollar-100.svg",
+    img: "/images/one-hundred-dollar.svg",
     name: "Leave a $100.00 tip?",
     price: "100",
-    pathname: "/tip-portal/leave-a-one-hundred-dollar-tip",
+    pathname: "/tips/one-hundred-dollars",
     tax: "txcd_10000000"
   }
   ])
@@ -81,7 +81,7 @@ function Dollars({ href }) {
             <CustomLink href={pathname} passHref={href} className="flex flex-grow justify-center">
                   <Image
                     key={index}
-                    pathname={`/tip-portal/${index + 1} + dollars`}
+                    pathname={`/tips/${index + 1} + dollars`}
                     className="flex cursor-pointer hover:scale-15
                     transform transition-duration-300 ease-out animate-float"
                     src={`/images/dollar-${index + 1}.png`}
@@ -98,7 +98,7 @@ function Dollars({ href }) {
                 </CustomLink>
               ))} */}
 
-            <ul className="inline-flex flex-row cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float">
+            <ul className="inline-flex flex-row cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float pt-4">
               <li className="flex flex-grow justify-center cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float">
                 <SmallOne />
               </li>

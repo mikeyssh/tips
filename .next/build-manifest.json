@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,35 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/tip-portal/leave-a-one-dollar-tip": [
+    "/tips/fifty-dollars": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/tip-portal/leave-a-one-dollar-tip.js"
+      "static/chunks/pages/tips/fifty-dollars.js"
+    ],
+    "/tips/five-dollars": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tips/five-dollars.js"
+    ],
+    "/tips/one-dollar": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tips/one-dollar.js"
+    ],
+    "/tips/one-hundred-dollars": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tips/one-hundred-dollars.js"
+    ],
+    "/tips/ten-dollars": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tips/ten-dollars.js"
+    ],
+    "/tips/twenty-dollars": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tips/twenty-dollars.js"
     ]
   },
   "ampFirstPages": []
