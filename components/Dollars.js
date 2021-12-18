@@ -98,7 +98,7 @@ function Dollars({ href }) {
                 </CustomLink>
               ))} */}
 
-            <ul className="inline-flex flex-row cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float pt-4">
+            <ul className="inline-flex flex-row cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float pt-2">
               <li className="flex flex-grow justify-center cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float">
                 <SmallOne />
               </li>
