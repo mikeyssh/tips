@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import CustomLink from "../../components/CustomLink";
-import Footer from "../../components/Footer";
+import ContactForm from "../../components/ContactForm";
 import HomeDescription from "../../components/home/HomeDescription";
 import Header from "../../components/Header";
 import Dollars from "../../components/Dollars";
@@ -38,6 +38,8 @@ const Tips = () => (
                     {" "}
                     Leave a Tip
                 </CustomLink>
+
+                <ContactForm />
             </div>
         </SectionContainer>
         {/* Scoreboard */}

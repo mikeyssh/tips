@@ -1,12 +1,13 @@
-import StripeCard from "./StripeCard"
+import ContactForm from "./ContactForm"
 
 function Footer() {
     return (
       <>
-        <footer className="sticky">
-          {/* <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <StripeCard />
-          </div> */}
+        <footer className="flex flex-col">
+          <div className="flex flex-grow justify-center sm:px-6">
+            {/* <StripeCard /> */}
+            <ContactForm />
+          </div>
         </footer>
       </>
     );

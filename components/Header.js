@@ -9,7 +9,7 @@ import {
 } from "@heroicons/react/solid";
 import { useState, useRef, useEffect } from "react";
 import CustomLink from "./CustomLink";
-import ToggleSwitch from "./buttons/ToggleSwitch";
+// import ToggleSwitch from "./buttons/ToggleSwitch";
 import TipButton from "./buttons/TipButton";
 
 import { useRouter } from "next/dist/client/router";
