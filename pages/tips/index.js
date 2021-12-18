@@ -30,7 +30,7 @@ const Tips = () => (
 
             <div className="mt-32 text-center">
                 <CustomLink
-                    href="/tips/leave-a-five-dollar-tip"
+                    href="/tips/five-dollars"
                     className="justify-center
                     bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg px-6
                     py-3 leading-tight"
