@@ -12,12 +12,15 @@ export default function StripeCard() {
                 <div className="flex flex-wrap">
                         {/* Name */}
                         <label className="block text-black dark:text-black text-sm font-medium mb-1" htmlFor="first-name">Name<span className="text-rose-500 dark:text-rose-200"> *</span><span className="text-rose-300 dark:text-rose-300 font-semibold"> optional</span></label>
-                        <input id="first-name" type="text" className="form-input w-full text-teal-500 dark:text-gold-100 border-teal-500 border-solid border-shadowed bg-gray-200 rounded" placeholder="Your name goes here" />
+                        <input id="first-name" type="text" className="form-input w-full text-teal-500 dark:text-gold-100 border-teal-500 border-solid border-shadowed bg-gray-200 rounded" placeholder="" />
+
+                        <label className="block text-black dark:text-black text-sm font-medium mb-1" htmlFor="first-name">From<span className="text-rose-500 dark:text-rose-200"> *</span><span className="text-rose-300 dark:text-rose-300 font-semibold"> optional</span></label>
+                        <input id="first-name" type="text" className="form-input w-full text-teal-500 dark:text-gold-100 border-teal-500 border-solid border-shadowed bg-gray-200 rounded" placeholder="" />
 
                     <div className="flex justify-between items-center pt-4">
                         {" "}
                             {/* Card Number */}
-                            <label className="block text-black dark:text-black text-xs font-medium mb-1" htmlFor="last-name">note: your tip payment will be processed through the Stripe Platform on the next page.. Leaving your name here is for the Scoreboard <span className="text-rose-500 dark:text-gold-200"> * </span><span className="text-rose-300 font-semibold dark:text-gold-300">below</span>
+                            <label className="block text-black dark:text-black text-xs font-medium mb-1" htmlFor="last-name">Leave a name you're comfortable with<span className="text-rose-500 dark:text-gold-200"> * </span><span className="text-rose-300 font-semibold dark:text-gold-300">below</span>
                             </label>
                         {/* Date */}
                         <div className="flex justify-between items-center pt-4">
