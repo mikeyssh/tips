@@ -20,7 +20,7 @@ export default function StripeCard() {
                     <div className="flex justify-between items-center pt-4">
                         {" "}
                             {/* Card Number */}
-                            <label className="block text-black dark:text-black text-xs font-medium mb-1" htmlFor="last-name">Leave a name you're comfortable with<span className="text-rose-500 dark:text-gold-200"> * </span><span className="text-rose-300 font-semibold dark:text-gold-300">below</span>
+                            <label className="block text-black dark:text-black text-xs font-medium mb-1" htmlFor="last-name">Leave a name you are comfortable with<span className="text-rose-500 dark:text-gold-200"> * </span><span className="text-rose-300 font-semibold dark:text-gold-300">below</span>
                             </label>
                         {/* Date */}
                         <div className="flex justify-between items-center pt-4">

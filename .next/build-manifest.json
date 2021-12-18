@@ -25,30 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/tips/fifty-dollars": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tips/fifty-dollars.js"
-    ],
-    "/tips/five-dollars": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tips/five-dollars.js"
-    ],
     "/tips/one-hundred-dollars": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/tips/one-hundred-dollars.js"
-    ],
-    "/tips/ten-dollars": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tips/ten-dollars.js"
-    ],
-    "/tips/twenty-dollars": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tips/twenty-dollars.js"
     ]
   },
   "ampFirstPages": []

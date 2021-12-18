@@ -77,28 +77,7 @@ function Dollars({ href }) {
 
     return (
         <section className="flex flex-container content-center">
-          {/* {items.map((items, index) => (
-            <CustomLink href={pathname} passHref={href} className="flex flex-grow justify-center">
-                  <Image
-                    key={index}
-                    pathname={`/tips/${index + 1} + dollars`}
-                    className="flex cursor-pointer hover:scale-15
-                    transform transition-duration-300 ease-out animate-float"
-                    src={`/images/dollar-${index + 1}.png`}
-                    width={100}
-                    height={100}
-                    alt={`Dollar ${index + 1}`}
-                    onMouseEnter={() => {
-                      setActive(index);
-                      setdescriptionOn(true);
-                    }}
-                    onMouseLeave={() => setdescriptionOn(true)}
-                    
-                  />
-                </CustomLink>
-              ))} */}
-
-            <ul className="inline-flex flex-row cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float pt-2">
+          <ul className="inline-flex flex-row cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float pt-2">
               <li className="flex flex-grow justify-center cursor-pointer hover:scale-15 transform transition-duration-300 ease-out animate-float">
                 <SmallOne />
               </li>
@@ -124,7 +103,7 @@ function Dollars({ href }) {
 
             {/* description box */}
             <div
-              className={`opacity-0 transition duration-150 ease-in-out absolute left-1/2 transform -translate-x-1/2 max-w-xs w-full p-0 bg-transparent dark:bg-gray-800 text-center shadow-2xl pointer-events-none ${
+              className={`opacity-0 transition duration-150 ease-in-out absolute left-1/2 transform -translate-x-1/2 max-w-xs w-full p-0 bg-ndblue-100 dark:bg-gray-800 text-center shadow-2xl pointer-events-none ${
                 descriptionOn && 'opacity-100'
               }`}
             >
