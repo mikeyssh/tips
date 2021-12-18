@@ -5,8 +5,7 @@ import Footer from "../components/Footer";
 import HomeDescription from "../components/home/HomeDescription";
 import Header from "../components/Header";
 import Dollars from "../components/Dollars";
-// import PopOver from "../components/one-dollar/PopOver";
-import { SiteLayout } from "../components/SiteLayout";
+import SiteLayout from "../components/SiteLayout";
 import SectionContainer from "../components/SectionContainer";
 
 const Index = () => (
