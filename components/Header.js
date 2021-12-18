@@ -147,7 +147,7 @@ function Header() {
       <div className="flex items-center space-x-4 justify-end text-gray-200 dark:text-gray-200">
         <CustomLink href="https://notredame.live/blog" className="hidden md:inline cursor-pointer">Blog</CustomLink>
         <CustomLink href="https://notredame.live/" className="hidden md:inline cursor-pointer">Home</CustomLink>
-        <ToggleSwitch className="bg-teal-500 dark:bg-ndblue-100 "/>
+        {/* <ToggleSwitch className="bg-teal-500 dark:bg-ndblue-100 "/> */}
         <TipButton className="bg-teal-500 dark:bg-ndblue-100 "/>
       </div>
       
