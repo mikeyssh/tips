@@ -1,6 +1,6 @@
 {
   "name": "tips",
-  "homepage": ".",
+  "homepage": "/tips",
   "version": "0.1.0",
   "author": "Mike Calendo",
   "description": "Tip Page from the Notre Dame Live Blog",
@@ -42,7 +42,7 @@
     "tailwindcss": "^3.0.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development && TAILWIND_MODE=watch next dev -p 4000",
+    "dev": "cross-env NODE_ENV=development && TAILWIND_MODE=watch next dev -p 3001",
     "clean:dev": "rm -rf package-lock.json yarn.lock node_modules/ && npm install && cross-env NODE_ENV=development && TAILWIND_MODE=watch next dev",
     "build": "next build",
     "lint": "next lint",
